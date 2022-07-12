@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: env-configmap
+  namespace: default
+data:
+  POSTGRES_HOST: alvandb.c56vg5ee7j5h.us-east-2.rds.amazonaws.com
+  AWS_BUCKET: alvan1970339bucket
+  AWS_REGION: us-east-2
+  AWS_PROFILE: default
+  URL: http://localhost:8100
